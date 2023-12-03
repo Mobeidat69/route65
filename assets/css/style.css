@@ -614,7 +614,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .header.active {
-  padding-block: 20px;
+  padding-block: 1px;
   background-color: var(--eerie-black-4);
   border-color: var(--black-alpha-15);
 }
@@ -691,7 +691,7 @@ body.nav-active { overflow: hidden; }
 
 .navbar .logo {
   max-width: max-content;
-  margin-inline: auto;
+  margin-inline:inherit;
   margin-block-end: 60px;
 }
 
@@ -919,7 +919,7 @@ body.nav-active { overflow: hidden; }
   transform: translateX(-50%);
   width: 140px;
   height: 100%;
-  background-image: url('../images/img-pattern.svg');
+  background-image: url('../images/img-pattern.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
