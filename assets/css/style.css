@@ -379,7 +379,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn-secondary {
-  background-color: var(--gold-crayola);
+  background-color: gold;
   color: var(--black);
 }
 
@@ -838,7 +838,7 @@ body.nav-active { overflow: hidden; }
   bottom: 15px;
   right: 15px;
   z-index: 2;
-  background-color: var(--gold-crayola);
+  background-color:gold;
   width: 110px;
   height: 110px;
   padding: 12px;
@@ -919,7 +919,7 @@ body.nav-active { overflow: hidden; }
   transform: translateX(-50%);
   width: 140px;
   height: 100%;
-  background-image: url('../images/img-pattern.jpg');
+  background-image: url('../images/road.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -1044,7 +1044,7 @@ body.nav-active { overflow: hidden; }
   #MENU
 \*-----------------------------------*/
 
-.menu .section-title { margin-block-end: 40px; }
+.menu .section-title { margin-block-end: 40px;   }
 
 .menu .grid-list { margin-block-end: 50px; }
 
@@ -1052,6 +1052,12 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  
+ 
+}
+
+.mm{
+  height: 100vh !important;
 }
 
 .hover\:card .card-banner { background-color: var(--gold-crayola); }
@@ -1312,7 +1318,7 @@ textarea.input-field {
 .footer-brand {
   position: relative;
   padding: 50px 40px;
-  background: var(--smoky-black-1) url("../images/footer-form-bg.png");
+  background: var(--smoky-black-1) url("../images/road.jpg");
   background-position: center top;
   background-repeat: repeat;
 }
@@ -1322,7 +1328,7 @@ textarea.input-field {
   top: 0;
   width: 15px;
   height: 100%;
-  background-image: url("../images/footer-form-pattern.svg");
+  /* background-image: url("../images/road.jpg"); */
 }
 
 .footer-brand::before { left: 0; }
